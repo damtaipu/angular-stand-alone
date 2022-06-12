@@ -1,6 +1,6 @@
-# StandAlone App
+# Angular Standalone Componentes, Directives and Pipes
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1. com o propósito de demonstrar a nova funcionalidade do Angular: Stand Alone Components.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1. com o propósito de demonstrar a nova funcionalidade do Angular: Standalone Components.
 
 ## Development server
 
