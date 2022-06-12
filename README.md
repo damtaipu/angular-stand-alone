@@ -1,6 +1,6 @@
 # StandAlone App
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1. com o proposito de testar componentes Stand Alone.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1. com o propósito de demonstrar a nova funcionalidade do Angular: Stand Alone Components.
 
 ## Development server
 
