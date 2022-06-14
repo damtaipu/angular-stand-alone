@@ -4,9 +4,6 @@ import { ComponentStandAloneComponent } from '../../component/component-stand-al
 import { RegisterUserUseCase } from 'src/app/core/usecases/register-user.usecase';
 import { FactoryProviders } from 'src/app/shared/factory/factory-providers';
 
-//Passo a ch
-
-
 @Component({
   selector: 'sta-about',
   standalone: true,

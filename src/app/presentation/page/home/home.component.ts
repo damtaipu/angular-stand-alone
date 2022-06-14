@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { RegisterUserUseCase } from 'src/app/core/usecases/register-user.usecase';
 import { FactoryProviders } from 'src/app/shared/factory/factory-providers';
 
-
-
 @Component({
   selector: 'sta-home',
   standalone: true,
