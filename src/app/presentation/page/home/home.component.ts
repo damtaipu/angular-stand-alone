@@ -14,6 +14,7 @@ import { FactoryProviders } from 'src/app/shared/factory/factory-providers';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent implements OnInit {
 
   constructor(private registerUser: RegisterUserUseCase) { }

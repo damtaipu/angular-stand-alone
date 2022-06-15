@@ -18,8 +18,8 @@ import { FactoryProviders } from 'src/app/shared/factory/factory-providers';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
-export class AboutComponent implements OnInit {
 
+export class AboutComponent implements OnInit {
 
   constructor(private registerUser: RegisterUserUseCase) { }
 

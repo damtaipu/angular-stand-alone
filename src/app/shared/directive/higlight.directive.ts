@@ -4,6 +4,7 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
   selector: '[staHiglight]',
   standalone: true
 })
+
 export class HiglightDirective {
 
   constructor(private el: ElementRef) { }

@@ -4,7 +4,6 @@ import { SendRegisterUser } from "src/app/core/domain/send-data.model";
 import { RegisterUserRepository } from "src/app/core/repositories/register-user.repository";
 
 export class DataRegisterUserRepository extends RegisterUserRepository {
-
     registerUser(param: SendRegisterUser): Observable<ReturnDataModel> {
         return of({
             code: 200,
@@ -13,7 +12,4 @@ export class DataRegisterUserRepository extends RegisterUserRepository {
             }]
         }).pipe(map( r => r))
     }
-
-
-
 }

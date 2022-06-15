@@ -10,6 +10,7 @@ import { RegisterUserRepository } from "../repositories/register-user.repository
 })
 
 export class RegisterUserUseCase implements UseCase<SendRegisterUser, ReturnDataModel> {
+    
     constructor(private registerRpository: RegisterUserRepository) { }
 
     execute(param: SendRegisterUser): Observable<ReturnDataModel> {

@@ -16,6 +16,7 @@ import { SquarePipe } from 'src/app/shared/pipe/square.pipe';
   templateUrl: './component-stand-alone.component.html',
   styleUrls: ['./component-stand-alone.component.scss']
 })
+
 export class ComponentStandAloneComponent implements OnInit {
 
   constructor() { }
