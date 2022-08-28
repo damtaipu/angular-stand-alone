@@ -5,6 +5,9 @@ import { AppComponent } from './app/app.component';
 import { environment } from './environments/environment';
 import { routes } from "./app/app-routing.module";
 
+//Data Providers
+import { DataProviders } from 'src/app/shared/factory/factory-providers';
+
 if (environment.production) {
   enableProdMode();
 }
@@ -12,7 +15,9 @@ if (environment.production) {
 bootstrapApplication(AppComponent, {
 
 providers: [
-  importProvidersFrom(RouterModule.forRoot(routes))
+  importProvidersFrom(RouterModule.forRoot(routes)),
+  DataProviders.userRegister.provider,
+  DataProviders.userRegister.override
 ]
   
 }).catch((err) => console.log(err));

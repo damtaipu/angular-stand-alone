@@ -2,7 +2,7 @@ import { RegisterUserRepository } from "src/app/core/repositories/register-user.
 import { RegisterUserUseCase } from "src/app/core/usecases/register-user.usecase";
 import { DataRegisterUserRepository } from "src/app/data/repository/register-user.repository";
 
-export const FactoryProviders =  {
+export const DataProviders =  {
     // Registro de usuários
     userRegister: {
         provider: RegisterUserUseCase,
